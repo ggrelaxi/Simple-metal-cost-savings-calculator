@@ -1,3 +1,9 @@
+#wrapper {
+    max-width: 1200px;
+    width: auto;
+    margin: 0 auto;
+}
+
 #starlexCalc {
     background-color: #fafafa;
     max-width: 1200px;
