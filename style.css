@@ -1,0 +1,74 @@
+#starlexCalc {
+    background-color: #fafafa;
+    max-width: 1200px;
+    width: auto;
+}
+
+.calcFieldset {
+    border: 1px solid #dddddd;
+    border-left: 5px solid #ed1c24;
+}
+
+.calcFieldset hr {
+    color: #ed1c24;
+    margin: 20px 0px;
+}
+
+.calcFieldset legend {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.calcDataGroupInput {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.calcDataInputLeft {
+    width: 75%;
+    border: 1px solid #CECECE;
+    padding: 15px 25px;
+    box-sizing: border-box;
+}
+
+.calcDataInputRight {
+    width: 25%;
+    border: 1px solid #CECECE;
+    border-left: none;
+    padding: 15px 25px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.calcDataInputRight:focus {
+    -webkit-border: 2px solid #ed1c24 !important;
+    -moz-border: 2px solid #ed1c24 !important;
+    border: 2px solid #ed1c24 !important;
+}
+
+.calcDataGroupResult {
+    display: flex;
+}
+
+.caclDataResultRight {
+    width: 25%;
+    border: 1px solid #CECECE;
+    padding: 10px 15px;
+    border-left: none;
+    background-color: #fff;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+
+.calcDataResultLeft {
+    width: 75%;
+    border: 1px solid #CECECE;
+    padding: 10px 15px;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+
+.calcLastResultBlock {
+    border-bottom: 1px solid #CECECE;
+}

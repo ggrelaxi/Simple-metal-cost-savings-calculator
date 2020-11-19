@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    
+    <meta name="HandheldFriendly" content="true"/>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <form id="starlexCalc">
+
+        
+        <fieldset class="calcFieldset">
+            <legend>Калькулятор использования материалов</legend>
+
+            <div class="calcDataGroupInput">
+                <div class="calcDataInputLeft">
+                    Укажите стоимость 1 листа металла
+                </div>
+                <input type="number" value="2100" min="1" required class="calcDataInputRight" id="calcSingleListPrice">
+                
+            </div>
+
+            <div class="calcDataGroupInput">
+                <div class="calcDataInputLeft">
+                    Укажите количество обрабатываемых листов в день
+                </div>
+                <input type="number" value="60" min="1" required class="calcDataInputRight" id="countListInput">
+                
+            </div>
+            <hr>
+            <!-- Результаты -->
+
+            <div class="calcDataGroupResult">
+                <div class="calcDataResultLeft">
+                    Общая стоимость обрабатываемых листов в день
+                </div>
+
+                <div class="caclDataResultRight" id="totalListPriceDay">
+                    dfdf
+                </div>
+            </div>
+
+            <div class="calcDataGroupResult">
+                <div class="calcDataResultLeft">
+                    Общая стоимость обрабатываемых листов в месяц
+                </div>
+
+                <div class="caclDataResultRight" id="totatListPriceMounth">
+                    fff
+                </div>
+            </div>
+
+            <div class="calcDataGroupResult calcLastResultBlock">
+                <div class="calcDataResultLeft">
+                    Общая стоимость обрабатываемых листов в год
+                </div>
+
+                <div class="caclDataResultRight" id="totalListPriceYear">
+                    sss
+                </div>
+            </div>
+            <hr>
+
+            <div class="calcDataGroupResult">
+                <div class="calcDataResultLeft">
+                    2% потенциальная экономия в год
+                </div>
+
+                <div class="caclDataResultRight" id="persentResult2">
+                    
+                </div>
+            </div>
+
+            <div class="calcDataGroupResult">
+                <div class="calcDataResultLeft">
+                    3% потенциальная экономия в год
+                </div>
+
+                <div class="caclDataResultRight" id="persentResult3">
+                    
+                </div>
+            </div>
+
+            <div class="calcDataGroupResult">
+                <div class="calcDataResultLeft">
+                    4% потенциальная экономия в год
+                </div>
+
+                <div class="caclDataResultRight" id="persentResult4">
+                    
+                </div>
+            </div>
+
+            <div class="calcDataGroupResult">
+                <div class="calcDataResultLeft">
+                    5% потенциальная экономия в год
+                </div>
+
+                <div class="caclDataResultRight" id="persentResult5">
+                    
+                </div>
+            </div>
+
+            <div class="calcDataGroupResult">
+                <div class="calcDataResultLeft">
+                    10% потенциальная экономия в год
+                </div>
+
+                <div class="caclDataResultRight" id="persentResult10">
+                    
+                </div>
+            </div>
+
+            <div class="calcDataGroupResult calcLastResultBlock">
+                <div class="calcDataResultLeft">
+                    15% потенциальная экономия в год
+                </div>
+
+                <div class="caclDataResultRight" id="persentResult15">
+                    
+                </div>
+            </div>
+
+
+        </fieldset>
+    </form>
+
+    <script src="starlex-calc.js"></script>
+</body>
+</html>
